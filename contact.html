@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ideal Clima - Contato</title>
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://kit.fontawesome.com/9ffcd77a7d.js" crossorigin="anonymous"></script>
+
+  <link rel = "shortcut icon" type = "imagem/x-icon" href = "/assets/img/logo.png"/>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Ideal Clima</a>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre.html">Sobre nós</a></li>
+        <li><a href="historia.html">Evolução do ar</a></li>
+        <li><a href="contact.html">Entre em contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="title reveal">
+    <p>Entre em contato conosco</p>
+  </div>
+
+  <div class="container-contact reveal">
+    <div class="container-inputs reveal">
+      <form class="input-container" action="https://formsubmit.co/idealclimar@gmail.com.br" method="POST">
+        <label for="name">Nome:</label>
+        <input class="input" type="text" id="name" name="name" placeholder="Seu nome" autocomplete="off" required>
+
+        <label for="email">Email:</label>
+        <input class="input" type="text" id="email" name="email" placeholder="seuemail@email.com" autocomplete="on"
+          placeholder="Email" required>
+
+        <label for="telephone">Telefone:</label>
+        <input class="input" type="text" id="telephone" name="telephone" placeholder="(11) 00000-0000" autocomplete="off"
+          required>
+
+        <label for="message">Descreva seu problema:</label>
+        <textarea id="textarea" cols="30" rows="10" name="message" placeholder="Conte um pouco sobre seu problema!"></textarea>
+
+        <button class="btn-form" type="submit">Enviar Formulário</button>
+
+        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+      </form>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container-footer">
+      <section class="section-title">
+        <section class="section-titles">
+          <img src="assets/img/newLogo.png" alt="Logo Ideal Clima">
+          <p class="section-title-first">
+            Instalação • Manuntenção
+          </p>
+          <p class="section-title-second">
+            Executamos serviços de instalação de ar-condicionado
+            Remoção de ar-condiocionado e manuntenção de ar-condionados.
+          </p>    
+        </section>
+        <section class="section-contact">
+          <p class="text-contact">Contatos</p>
+          <p class="text-number-first">(11) 95596-6413</p>
+          <p class="text-email">idealclimar@gmail.com.br</p>
+        </section>
+        <section class="social-section">
+          <p>Redes Sociais</p>
+          <section class="social-icons">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+  
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+  
+            <a href="https://api.whatsapp.com/send?phone=11955966413" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </section>
+        </section>
+      </section>
+    </div>
+    
+    <div class="container-manager">
+      <p>&copy; Ideal Clima - Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
