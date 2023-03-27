@@ -1,4 +1,4 @@
-<h1 align="center">Idela Telhados</h1>
+<h1 align="center">Idela Clima</h1>
 
 <!-- Getting Started -->
 # Sobre o projeto
