@@ -535,10 +535,10 @@ footer {
   width: 500px;
 }
 
-.section-titles img {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
+.logo-footer {
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: contain !important;
 }
 
 .section-title-first {

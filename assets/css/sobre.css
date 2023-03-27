@@ -237,7 +237,8 @@ footer {
   width: 500px;
 }
 
-.section-titles img {
+
+.logo-footer {
   width: 80px;
   height: 80px;
   object-fit: contain;
